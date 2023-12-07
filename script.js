@@ -31,9 +31,7 @@ function playGame(playerChoice) {
 }
 
 function updateDisplay() {
-  document.getElementById('playerRecord').textContent = `${playerName} wins: ${playerWins}`;
-
-  document.getElementById('recordArea').value = `Player Wins: ${playerWins}\nComputer Wins: ${computerWins}\nDraws: ${draws}\nTotal Games: ${totalGames}`;
+  document.getElementById('recordArea').value = `${playerName} Wins: ${playerWins}\nComputer Wins: ${computerWins}\nDraws: ${draws}\nTotal Games: ${totalGames}`;
   document.getElementById('historyArea').value = history.join('\n');
 }
 
