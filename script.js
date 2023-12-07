@@ -64,4 +64,3 @@ document.getElementById('paperBtn').addEventListener('click', () => playGame('P'
 document.getElementById('scissorsBtn').addEventListener('click', () => playGame('S'));
 document.getElementById('resetBtn').addEventListener('click', resetGame);
 document.getElementById('setNameBtn').addEventListener('click', setPlayerName);
-
