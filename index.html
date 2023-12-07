@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="input-section">
+      <label for="playerName">Enter Player Name:</label>
+      <input type="text" id="playerName" maxlength="7">
+      <button id="setNameBtn">Set Name</button>
+    </div>
+
+    <div class="record-section">
+      <h2 id="playerRecord"></h2>
+      <textarea id="recordArea" rows="6" cols="40" disabled></textarea>
+    </div>
+
+    <div class="game-section" id="gameButtons" style="display: none;">
+      <button id="rockBtn">Rock</button>
+      <button id="paperBtn">Paper</button>
+      <button id="scissorsBtn">Scissors</button>
+    </div>
+
+    <div class="history-section">
+      <h2>Game History:</h2>
+      <textarea id="historyArea" rows="8" cols="40" disabled></textarea>
+    </div>
+
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
