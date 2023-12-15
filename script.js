@@ -20,7 +20,7 @@ function playGame(playerChoice) {
     (playerChoice === "S" && computerChoice === "P")
   ) {
     playerWins++;
-    result = "Player Wins";
+    result = `${playerName} Wins`;
   } else {
     computerWins++;
     result = "Computer Wins";
